@@ -1,18 +1,26 @@
 {
-  "name": "itsecretary",
+  "name": "ITSecretary",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
   "dependencies": {
-    "firebase": "^9.10.0"
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "@nuxtjs/vuetify": "^1.12.3"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "main": "index.js",
+  "repository": "https://github.com/kechijima/ITSecretary.git",
+  "author": "kechijima <alljapanekiden@gmail.com>",
+  "license": "MIT"
 }
